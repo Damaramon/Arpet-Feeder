@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingHorizontal="30dp"
+    android:showDividers="middle">
+
+    <TextView
+        android:id="@+id/txt_user_greet_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:fontFamily="@font/rubikmedium"
+        android:textColor="@color/black"
+        android:textSize="23sp" />
+
+    <ImageView
+        android:layout_width="290dp"
+        android:layout_height="270dp"
+        android:src="@drawable/tempatmakan"
+        android:contentDescription="@string/tempat_makan" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageView
+                android:padding="-100dp"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:src="@drawable/iconpetir" />
+
+            <TextView
+                android:layout_marginRight="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/rubikmedium"
+                android:textColor="@color/black"
+                android:text="@string/on"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_marginLeft="10dp"
+                android:padding="-100dp"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:src="@drawable/kotak" />
+
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/rubikmedium"
+                android:textColor="@color/black"
+                android:text="@string/full"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_feed_home"
+        android:layout_marginTop="20dp"
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button_feed"
+        android:text="@string/feed_now"
+        android:textColor="@color/black"
+        android:fontFamily="@font/rubikmedium" />
+
+</LinearLayout>

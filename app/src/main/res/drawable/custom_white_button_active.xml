@@ -1,0 +1,5 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false"
+        android:drawable="@drawable/custom_white_button" />
+    <item android:drawable="@drawable/custom_darker_white_button" />
+</selector>

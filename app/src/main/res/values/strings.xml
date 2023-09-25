@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">Pet Feeder</string>
+
+    <string name="register_title">REGISTER</string>
+
+    <string name="name_edt_label">Name</string>
+    <string name="email_edt_label">Email Address</string>
+    <string name="phone_edt_label">Phone Number</string>
+    <string name="password_edt_label">Password</string>
+    <string name="conf_password_edt_label">Confirm Password</string>
+
+    <string name="email_edt_placeholder">Enter Your Email</string>
+    <string name="name_edt_placeholder">Enter your name</string>
+    <string name="phone_edt_placeholder">+62 | Enter your phone number</string>
+    <string name="password_edt_placeholder">Enter your password</string>
+
+    <string name="register_agreement">I agree to <a><u><font color="#FF8C42">Terms of use &amp; Privacy policy</font></u></a></string>
+    <string name="register_btn_label">register</string>
+    <string name="login_title">Login</string>
+    <string name="keep_login">Remember me</string>
+    <string name="forgot_password">Forgot Password? </string>
+    <string name="sign_up_choice">OR</string>
+    <string name="not_register">Not register yet ?</string>
+    <string name="register_link"><b><font color="#2E86AB">Create Account</font></b></string>
+
+    <!--  Validation string  -->
+    <string name="validation_required">*Required</string>
+    <string name="validation_input_minimum">%s must atleast %s characters</string>
+    <string name="validation_input_exceeds">%s must not exceed %s characters</string>
+    <string name="validation_input_invalid">Invalid %s</string>
+    <string name="validation_input_not_match">%s not match</string>
+    <string name="validation_auth_failed">Failed to %s</string>
+    <string name="validation_agreements">Please agree to our terms of use and privacy policy</string>
+    <string name="google_login">Google Login</string>
+    <string name="facebook_login">Facebook Login</string>
+    <string name="twitter_login">Twitter Login</string>
+    <string name="hero">Hero</string>
+
+    <string name="home">Home</string>
+    <string name="history">History</string>
+    <string name="schedule">Schedule</string>
+    <string name="devices">Devices</string>
+    <string name="home_fragment">Home Fragment</string>
+    <string name="history_fragment">History Fragment</string>
+    <string name="device_fragment">Device Fragment</string>
+    <string name="schedule_fragment">Schedule Fragment</string>
+
+    <string name="home_user_greet">HELLO, %s!</string>
+    <string name="on">ON</string>
+    <string name="full">FULL</string>
+    <string name="feed">FEED</string>
+    <string name="feed_now">FEED NOW</string>
+    <string name="features">Features</string>
+    <string name="tempat_makan">tempat makan</string>
+    <string name="logout">Logout</string>
+    <string name="profile_button">profile button</string>
+    <string name="profile">Profile</string>
+    <string name="settings">Settings</string>
+    <string name="servings">Servings</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="time">Time</string>
+    <string name="day">Day</string>
+    <string name="add">Add</string>
+    <string name="colon">:</string>
+    <string name="monday_abv">Mon</string>
+    <string name="tuesday_abv">Tue</string>
+    <string name="wednesday_abv">Wed</string>
+    <string name="thursday_abv">Thu</string>
+    <string name="friday_abv">Fri</string>
+    <string name="saturday_abv">Sat</string>
+    <string name="sunday_abv">Sun</string>
+    <string name="realtime_feed">Realtime Feed</string>
+    <string name="add_device_title">ADD DEVICE</string>
+    <string name="turn_on_bluetooth">Turn on Bluetooth!</string>
+    <string name="scanning_nearby_devices">Scanning nearby devices…</string>
+    <string name="fetching_device_schedules">Fetching device schedules…</string>
+    <string name="add_device">ADD DEVICE</string>
+    <string name="device_image">Device Image</string>
+    <string name="enter_wi_fi_information">Enter Wi-Fi Information</string>
+    <string name="enter_wi_fi_password">Enter Wi-Fi password</string>
+    <string name="enter_wi_fi_ssid">Enter Wi-FI SSID</string>
+    <string name="fetch_schedule_error">Unable to fetch schedules data :(</string>
+</resources>

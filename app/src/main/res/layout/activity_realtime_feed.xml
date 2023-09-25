@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.feed.RealtimeFeedActivity"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/realtime_feed"
+        android:textColor="@color/black"
+        android:fontFamily="@font/rubikmedium"
+        android:textSize="24sp"
+        android:layout_gravity="start"
+        android:paddingTop="20dp"
+        android:paddingHorizontal="18dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <LinearLayout
+            android:id="@+id/servings_input_container_realtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="360dp"
+            android:orientation="vertical"
+            android:background="@drawable/custom_feed_input_container"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/servings"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:fontFamily="@font/rubikregular" />
+
+            <NumberPicker
+                android:id="@+id/np_servings_realtime"
+                android:theme="@style/Theme.PetFeeder.Picker"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_cancel_realtime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_white_button_active"
+                android:fontFamily="@font/rubikbold"
+                android:text="@string/cancel"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:layout_marginEnd="20dp"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_feed_realtime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_blue_button_active"
+                android:fontFamily="@font/rubikbold"
+                android:text="@string/feed"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

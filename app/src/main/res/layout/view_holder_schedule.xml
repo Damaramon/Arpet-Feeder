@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="10dp"
+    app:strokeWidth="2dp"
+    app:strokeColor="@color/gray">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:baselineAligned="false"
+            android:padding="15dp"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/txt_schedule_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="10:00 AM"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/rubikregular" />
+
+            <TextView
+                android:id="@+id/txt_schedule_day_of_week"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                tools:text="Monday"
+                android:maxLines="1"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:ellipsize="end"
+                android:fontFamily="@font/rubikregular" />
+
+            <TextView
+                android:id="@+id/txt_schedule_feed_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                tools:text="3 rounds"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/rubikregular" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

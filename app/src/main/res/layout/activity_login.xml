@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/login_container"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.login.LoginActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:showDividers="middle"
+    android:divider="@drawable/register_layout_divider"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/logo"
+        android:contentDescription="@string/hero" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="35dp"
+        android:showDividers="middle"
+        android:divider="@drawable/register_edt_divider">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/email_edt_label"
+                android:textSize="16sp"
+                android:fontFamily="@font/rubikmedium"
+                android:textColor="@color/black"
+                android:labelFor="@id/edt_email_login" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/edt_layout_email_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                app:boxStrokeWidth="0dp"
+                app:boxStrokeWidthFocused="0dp"
+                android:hint="@string/email_edt_placeholder"
+                android:textColorHint="@color/gray"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/edt_email_login"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:autofillHints=""
+                    android:inputType="textEmailAddress"
+                    android:background="@drawable/custom_register_edt"
+                    android:padding="15dp"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/rubikregular"
+                    android:textColor="@color/black" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:maxWidth="298dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/password_edt_label"
+                android:textSize="16sp"
+                android:maxWidth="298dp"
+                android:fontFamily="@font/rubikmedium"
+                android:textColor="@color/black"
+                android:labelFor="@id/edt_password_login" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/edt_layout_password_login"
+                android:layout_width="match_parent"
+                android:maxWidth="298dp"
+                android:layout_height="wrap_content"
+                app:passwordToggleEnabled="true"
+                app:passwordToggleTint="@color/gray"
+                android:layout_marginTop="3dp"
+                app:boxStrokeWidth="0dp"
+                app:boxStrokeWidthFocused="0dp"
+                android:hint="@string/password_edt_placeholder"
+                android:textColorHint="@color/gray"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/edt_password_login"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="textPassword"
+                    android:fontFamily="@font/rubikregular"
+                    android:textSize="16sp"
+                    android:padding="15dp"
+                    android:background="@drawable/custom_register_edt"
+                    android:autofillHints="password"
+                    android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/forgot_password"
+                        android:textColor="@color/purple_500"
+                        android:textSize="15sp"
+                        android:fontFamily="@font/rubikregular"
+                        android:gravity="end"
+                        android:layout_marginTop="7dp"
+                        android:layout_marginEnd="10dp"
+                        android:translationZ="10dp"
+                        tools:ignore="SmallSp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="22dp">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_blue_button_active"
+            android:fontFamily="@font/rubikbold"
+            android:maxWidth="334dp"
+            android:text="@string/login_title"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:layout_marginEnd="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_up_choice"
+            android:textColor="@color/black"
+            android:fontFamily="@font/rubikregular"
+            android:textSize="18sp" />
+        
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/black"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img_twitter_signin"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:src="@drawable/twitter_logo"
+            android:contentDescription="@string/twitter_login" />
+
+        <ImageView
+            android:id="@+id/img_facebook_signin"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:contentDescription="@string/facebook_login"
+            android:src="@drawable/facebook_logo"
+            android:layout_marginHorizontal="30dp" />
+
+        <ImageView
+            android:id="@+id/img_google_signin"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/google_logo"
+            android:contentDescription="@string/google_login" />
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/not_register"
+            android:textColor="@color/black"
+            android:layout_marginEnd="5dp"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/create"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register_link"
+            android:textSize="15sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
