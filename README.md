@@ -14,7 +14,7 @@ The pet feeder I have created serves to facilitate busy pet owners who may not h
   <tr>
     <!-- Kolom untuk gambar dan teks MQTT -->
     <td>
-      <img src="URL_GAMBAR_MQTT" alt="MQTT" style="width: 50px; vertical-align: middle;">
+      <img src="https://github.com/Damaramon/Arpet-Feeder/assets/128273587/b19d4789-1b84-44e3-aec2-71cc951de088" alt="MQTT" style="width: 50px; vertical-align: middle;">
     </td>
     <td>
       MQTT
