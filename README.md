@@ -5,7 +5,7 @@ The pet feeder I have created serves to facilitate busy pet owners who may not h
   <tr>
     <!-- Kolom untuk gambar dan teks Java -->
     <td>
-      <img src="https://github.com/Damaramon/Arpet-Feeder/assets/128273587/794209b4-1b52-4998-a91f-b3e1b28a443b" alt="Java" style="width: 50px; vertical-align: middle;">
+      <img src="https://github.com/Damaramon/Arpet-Feeder/assets/128273587/3ab87199-09d9-4c91-abed-f122c3c1a9aa" alt="Java" style="width: 50px; vertical-align: middle;">
     </td>
     <td>
       Java (Android Studio)
