@@ -1,6 +1,6 @@
 The pet feeder I have created serves to facilitate busy pet owners who may not have the time to care for their pets at home. This pet feeder can be remotely controlled through a mobile application using the MQTT protocol. The programming languages employed in this project include Java, Golang, and Arduino.
 
-
+##  **Tech Stack**
 <table>
   <tr>
     <!-- Kolom untuk gambar dan teks Java -->
@@ -32,7 +32,7 @@ The pet feeder I have created serves to facilitate busy pet owners who may not h
   <tr>
     <!-- Kolom untuk gambar dan teks Arduino -->
     <td>
-      <img src="URL_GAMBAR_ARDUINO" alt="Arduino" style="width: 50px; vertical-align: middle;">
+      <img src="https://github.com/Damaramon/Arpet-Feeder/assets/128273587/51533eb8-8ddc-4fc6-a4a9-ce5d106d1286" alt="Arduino" style="width: 70px; vertical-align: middle;">
     </td>
     <td>
       Arduino
