@@ -5,7 +5,7 @@ The pet feeder I have created serves to facilitate busy pet owners who may not h
   <tr>
     <!-- Kolom untuk gambar dan teks Java -->
     <td>
-      <img src="https://github.com/Damaramon/Arpet-Feeder/assets/128273587/3ab87199-09d9-4c91-abed-f122c3c1a9aa" alt="Java" style="width: 50px; vertical-align: middle;">
+      <img src="https://github.com/Damaramon/Arpet-Feeder/assets/128273587/3ab87199-09d9-4c91-abed-f122c3c1a9aa" alt="Java" style="width: 70px; vertical-align: middle;">
     </td>
     <td>
       Java (Android Studio)
@@ -14,7 +14,7 @@ The pet feeder I have created serves to facilitate busy pet owners who may not h
   <tr>
     <!-- Kolom untuk gambar dan teks MQTT -->
     <td>
-      <img src="https://github.com/Damaramon/Arpet-Feeder/assets/128273587/b19d4789-1b84-44e3-aec2-71cc951de088" alt="MQTT" style="width: 50px; vertical-align: middle;">
+      <img src="https://github.com/Damaramon/Arpet-Feeder/assets/128273587/b19d4789-1b84-44e3-aec2-71cc951de088" alt="MQTT" style="width: 70px; vertical-align: middle;">
     </td>
     <td>
       MQTT
@@ -23,7 +23,7 @@ The pet feeder I have created serves to facilitate busy pet owners who may not h
   <tr>
     <!-- Kolom untuk gambar dan teks Golang -->
     <td>
-      <img src="URL_GAMBAR_GOLANG" alt="Golang" style="width: 50px; vertical-align: middle;">
+      <img src="https://github.com/Damaramon/Arpet-Feeder/assets/128273587/1cebfd43-7cb8-4199-9abb-cb25ee0cc6b5" alt="Golang" style="width: 70px; vertical-align: middle;">
     </td>
     <td>
       Golang
